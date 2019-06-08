@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: #000000;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 微軟正黑體;
+    color: white;
+}
+
+#title {
+    margin: 15px; 
+    font-size: 40px;
+}
+
+#schedule {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+}
+
+#start_time, #end_time {
+    width: auto;
+}
+
+#event {
+    width: 60%;
+}

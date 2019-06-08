@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: #000000;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 微軟正黑體;
+    color: white;
+}
+
+.title {
+   margin: 15px; 
+}
+
+.video {
+    width: 80%;
+    height: 45vw;
+}
