@@ -1,0 +1,163 @@
+* {
+    font-family: 微軟正黑體;
+}
+
+body {
+    text-align: center;
+    background: #000000;
+    font-size: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+#wrapper {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 微軟正黑體;
+    color: white;
+}
+
+#header {
+    position: absolute;
+    top: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 95%;
+}
+
+#icon {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 150px;
+}
+
+#mainpage_logo {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 75%;
+    z-index: 15;
+}
+
+#title {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 0px;
+    left: 150px;
+    right: 0;
+    height: 150px;
+    z-index: 20;
+    transition: 0.3s ease-in-out;
+}
+
+.title_text {
+    margin: auto 0;
+    font-size: 45px;
+}
+
+#main_picture {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    background: #000000;
+    position: absolute;
+    width: 93%;
+    top: 150px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    z-index: 10;
+}
+
+.option, .suboption {
+    text-decoration: none;
+    color: lightblue;
+    width: auto;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding: auto;
+}
+
+.option:hover, .suboption:hover {
+    text-decoration: none;
+    color: #679ef7;
+    transition: 0.5s;
+}
+
+.option {
+    display: block;
+}
+
+.suboption {
+    margin: auto;
+    display: inline-block;
+}
+
+#bulletin_title {
+    margin: auto 0;
+    font-size: 30px;
+}
+
+#submenu {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 120px;
+    padding-right: 15px;
+    padding-left: 20px;
+    bottom: 0px;
+    margin: 0;
+    margin-bottom: 30px;
+    left: 3.5%;
+    text-align: left; 
+    top: 150px;
+    z-index: 100;
+}
+
+#subpage {
+    display: inline;
+    position: absolute;
+    left: 170px;
+    top: 60px;
+    width: calc(100% - 170px);
+    height: calc(100% - 60px);
+    border: none;
+}
