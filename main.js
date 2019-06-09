@@ -40,12 +40,12 @@ function change_menu(n) {
         document.getElementById("content").style.top = "150px";
         document.getElementById("content").style.paddingTop = "0px";
         setTimeout(function(){
-            document.getElementById("title").style.zIndex = "20";
+            document.getElementById("title").style.display = "initial";
         }, 1000);
     } else {
         document.getElementById("content").style.top = "0px";
         document.getElementById("content").style.paddingTop = "100px";
-        document.getElementById("title").style.zIndex = "10";
+        document.getElementById("title").style.display = "none";
     }
 }
 
