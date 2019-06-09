@@ -39,7 +39,7 @@ function change_menu(n) {
     if (n == 1) {
         document.getElementById("content").style.top = "150px";
         document.getElementById("content").style.paddingTop = "0px";
-        document.getElementById("title").style.display = "initial";
+        document.getElementById("title").style.display = "";
     } else {
         document.getElementById("content").style.top = "0px";
         document.getElementById("content").style.paddingTop = "100px";
